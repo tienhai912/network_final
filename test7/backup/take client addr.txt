@@ -1,0 +1,17 @@
+//**********New player**********
+// printf("New player:\n");
+// newPlayer(&playerList, id, "new member", cliaddr);
+// printf("id: %d\nname: %s\n", playerList[id].id, playerList[id].name);
+// id++;
+
+//________________________________
+
+//**********player IP**********
+// struct sockaddr_in* pV4Addr = (struct sockaddr_in*) &cliaddr;
+// struct in_addr ipAddr = pV4Addr->sin_addr;
+
+// char str1[INET_ADDRSTRLEN];
+// inet_ntop(AF_INET, &(cliaddr.sin_addr), str1, INET_ADDRSTRLEN );
+// printf("IP: %s\nEnd of player info\n", str1);
+
+//________________________________

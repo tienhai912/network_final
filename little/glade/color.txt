@@ -1,0 +1,5 @@
+light pink: FFF2E1
+pink : F4ADB4 ED7782
+blue : D0E9EC B0DBE0
+yellow : FBF1B1 F9E77D
+purple : C8BCD1 A38FB2

@@ -1,0 +1,5 @@
+shared memory room list, each room has a board
+all players connect to main server
+after a room is full, game start, a fork server is created for 4 player in that room
+the fork server store 4 connfd of 4 clients
+at the player turn, forked server will only listen to that client by recv(connfd, mess, MAXLINE,0)

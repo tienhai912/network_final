@@ -1,0 +1,98 @@
+-Note:
++ Status:
+  1=Accept
+  0=Error
+
+/////// 1
+-Find game: c
+FindGame;
+Hehe;
+
+-C Find game: s
+Confirm;
+FindGame;
+1;
+
+/////// 2
+-Start game: s
+StartGame;
+GameInfo;(in develop)
+
+-C Start game: c
+Confirm;
+StartGame;
+
+////// 3
+-Start turn: s
+Start turn;
+connfd;
+
+-C Start turn: c
+Confirm;
+StartTurn;
+
+
+//// 4
+-Toss: c
+Toss;
+connfd;
+
+-Return Toss: s
+TossResult;
+number;
+
+-C Return Toss: c
+Confirm;
+TossResult;
+number;
+
+//// 5
+-Move: c
+Move;
+connfd;
+HorseID;
+
+-C Move: s
+Confirm;
+Move;
+1;
+
+//// 6
+-Loss turn: s
+LossTurn;
+connfd;
+
+-C Loss turn: c
+Confirm;
+LossTurn;
+
+//// 7
+-End game: s
+EndGame;
+connfd;
+
+-C End game: c
+Confirm;
+EndGame;
+
+//// 8
+-Score: s
+Score;
+Score1;
+Score2;
+Score3;
+Score4;
+
+-C Score: c
+Confirm;
+Score;
+
+//// 9
+-Update horse: s
+UpdateHorse;
+connfd;
+HorseID;
+
+-C UpdateHorse;
+Confirm;
+UpdateHorse;
